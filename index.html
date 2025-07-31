@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Mockup</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Thanh điều hướng -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#central">Central Area</a></li>
+            <li><a href="#east">East Area</a></li>
+            <li><a href="#west">West Area</a></li>
+            <li><a href="#geylang">Geylang</a></li>
+        </ul>
+    </nav>
+
+    <!-- Phần Featured -->
+    <div class="header" id="home">
+        <h1>Featured Models</h1>
+    </div>
+
+    <!-- Khu vực Central -->
+    <div id="central" class="grid-container">
+        <div class="grid-item">
+            <img src="path_to_your_image/model1.jpg" alt="Model 1">
+            <h3>MuZi</h3>
+            <p>Central Area</p>
+            <p class="price">$150/60mins</p>
+            <button class="more-info">More Info</button>
+        </div>
+    </div>
+
+    <!-- Khu vực East -->
+    <div id="east" class="grid-container">
+        <div class="grid-item">
+            <img src="path_to_your_image/model2.jpg" alt="Model 2">
+            <h3>XiaZi</h3>
+            <p>East Area</p>
+            <p class="price">$180/60mins</p>
+            <button class="more-info">More Info</button>
+        </div>
+    </div>
+
+    <!-- Khu vực West -->
+    <div id="west" class="grid-container">
+        <div class="grid-item">
+            <img src="path_to_your_image/model3.jpg" alt="Model 3">
+            <h3>Yiyi</h3>
+            <p>West Area</p>
+            <p class="price">$220/60mins</p>
+            <button class="more-info">More Info</button>
+        </div>
+    </div>
+
+    <!-- Khu vực Geylang -->
+    <div id="geylang" class="grid-container">
+        <div class="grid-item">
+            <img src="path_to_your_image/model4.jpg" alt="Model 4">
+            <h3>Anna</h3>
+            <p>Geylang Area</p>
+            <p class="price">$200/60mins</p>
+            <button class="more-info">More Info</button>
+        </div>
+    </div>
+
+    <!-- Popup Modal -->
+    <div id="popupModal" class="popup-modal">
+        <div class="popup-content">
+            <span class="close-btn">&times;</span>
+            <h2>Product Details</h2>
+            <p id="modalText">Information will appear here...</p>
+            <button class="contact-btn">Contact Now</button>  <!-- Nút liên hệ -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
